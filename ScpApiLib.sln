@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScpApiLib", "ScpApiLib\ScpA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScpApiTestUI", "ScpApiTestUI\ScpApiTestUI.csproj", "{A482B2CC-2716-480C-939E-0E095D80638A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScpApiCom", "ScpApiCom\ScpApiCom.csproj", "{30467089-9CB1-428E-ACA7-DC3FCA130457}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A482B2CC-2716-480C-939E-0E095D80638A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A482B2CC-2716-480C-939E-0E095D80638A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A482B2CC-2716-480C-939E-0E095D80638A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30467089-9CB1-428E-ACA7-DC3FCA130457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30467089-9CB1-428E-ACA7-DC3FCA130457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30467089-9CB1-428E-ACA7-DC3FCA130457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30467089-9CB1-428E-ACA7-DC3FCA130457}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

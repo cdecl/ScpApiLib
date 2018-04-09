@@ -40,6 +40,10 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtDec = new System.Windows.Forms.TextBox();
             this.btnDec = new System.Windows.Forms.Button();
+            this.btnDecCom = new System.Windows.Forms.Button();
+            this.btnEncCom = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnEnc
@@ -145,12 +149,57 @@
             this.btnDec.TabIndex = 11;
             this.btnDec.Text = "암호모듈 테스트\r\n\r\nEnc→Dec";
             this.btnDec.UseVisualStyleBackColor = true;
+            this.btnDec.Click += new System.EventHandler(this.btnDec_Click);
+            // 
+            // btnDecCom
+            // 
+            this.btnDecCom.Location = new System.Drawing.Point(315, 286);
+            this.btnDecCom.Name = "btnDecCom";
+            this.btnDecCom.Size = new System.Drawing.Size(140, 52);
+            this.btnDecCom.TabIndex = 13;
+            this.btnDecCom.Text = "암호모듈 테스트\r\n\r\nEnc→Dec";
+            this.btnDecCom.UseVisualStyleBackColor = true;
+            this.btnDecCom.Click += new System.EventHandler(this.btnDecCom_Click);
+            // 
+            // btnEncCom
+            // 
+            this.btnEncCom.Location = new System.Drawing.Point(169, 286);
+            this.btnEncCom.Name = "btnEncCom";
+            this.btnEncCom.Size = new System.Drawing.Size(140, 52);
+            this.btnEncCom.TabIndex = 12;
+            this.btnEncCom.Text = "암호모듈 테스트\r\n\r\nText→Enc→Dec";
+            this.btnEncCom.UseVisualStyleBackColor = true;
+            this.btnEncCom.Click += new System.EventHandler(this.btnEncCom_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label6.Location = new System.Drawing.Point(53, 241);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(103, 16);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Library 버전";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label7.Location = new System.Drawing.Point(53, 302);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(96, 16);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "COM+ 버전";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(469, 281);
+            this.ClientSize = new System.Drawing.Size(469, 360);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.btnDecCom);
+            this.Controls.Add(this.btnEncCom);
             this.Controls.Add(this.btnDec);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtDec);
@@ -186,6 +235,10 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtDec;
         private System.Windows.Forms.Button btnDec;
+        private System.Windows.Forms.Button btnDecCom;
+        private System.Windows.Forms.Button btnEncCom;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
 
