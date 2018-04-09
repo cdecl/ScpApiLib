@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScpApiLib", "ScpApiLib\ScpApiLib.csproj", "{5CA5303A-82BD-4579-87D1-44CD888D419E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScpApiTestUI", "ScpApiTestUI\ScpApiTestUI.csproj", "{A482B2CC-2716-480C-939E-0E095D80638A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CA5303A-82BD-4579-87D1-44CD888D419E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA5303A-82BD-4579-87D1-44CD888D419E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA5303A-82BD-4579-87D1-44CD888D419E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA5303A-82BD-4579-87D1-44CD888D419E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A482B2CC-2716-480C-939E-0E095D80638A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A482B2CC-2716-480C-939E-0E095D80638A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A482B2CC-2716-480C-939E-0E095D80638A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A482B2CC-2716-480C-939E-0E095D80638A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
